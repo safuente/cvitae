@@ -79,10 +79,9 @@ WSGI_APPLICATION = 'cvitae.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cvitaedb',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': 'supersegura',
-        'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': '5432',
 
 
