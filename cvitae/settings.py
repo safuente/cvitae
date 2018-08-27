@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blogs',
     'cvitae',
-    'jobs'
+    'jobs',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
